@@ -1,0 +1,87 @@
+.drawer {
+	width: 400px;
+	.pinned {
+		height: 58px;
+		box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+		justify-content: space-around;
+		display: flex;
+		padding: 19px;
+		font-size: 13px;
+		font-weight: 500;
+		z-index: 10;
+		div {
+			display: inline;
+			padding-right: 7px;
+		}
+		div.change {
+			font-weight: 400;
+			color: #666;
+		}
+	}
+
+	.MuiTableCell-root {
+		padding: 12px;
+	}
+
+	.popupRow {
+		justify-content: space-between;
+		display: flex;
+	}
+
+	.title-row {
+		justify-content: space-between;
+		border-bottom: 1px solid #eee;
+	}
+
+	.SearchInput {
+		height: 48px;
+		padding: 0 16px;
+		background-color: #fff;
+		justify-content: center;
+		.searchIcon {
+			color: #a2a2a2;
+			margin: 0 14px;
+		}
+	}
+
+	.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot {
+		padding-right: 0px;
+	}
+
+	.table-container {
+		overflow-y: auto;
+
+
+		.MuiButton-root {
+			margin: 0px;
+		}
+
+		.MuiTableRow-hover {
+			.chart-icon {
+				position: absolute;
+				cursor: pointer;
+				left: 170px;
+				padding: 6px;
+				font-size: 32px;
+				margin-top: -6px;
+				background-color: #fff;
+				color: #000;
+				border-radius: 4px;
+				display: none;
+			}
+		}
+		.MuiTableRow-hover:hover {
+			.chart-icon {
+				display: initial;
+			}
+		}
+	}
+
+	.green {
+		color: #4caf50;
+	}
+
+	.red {
+		color: #df514c;
+	}
+}

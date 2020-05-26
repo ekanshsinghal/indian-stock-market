@@ -1,0 +1,51 @@
+{
+	"name": "stock-market-analyzer",
+	"version": "0.2.0",
+	"dependencies": {
+		"@date-io/date-fns": "^1.3.13",
+		"@material-ui/core": "^4.10.0",
+		"@material-ui/icons": "^4.9.1",
+		"@material-ui/lab": "^4.0.0-alpha.54",
+		"@material-ui/pickers": "^3.2.10",
+		"@nivo/line": "^0.61.1",
+		"@nivo/treemap": "^0.61.0",
+		"axios": "^0.19.2",
+		"connected-react-router": "^6.8.0",
+		"date-fns": "^2.14.0",
+		"highcharts": "^8.1.0",
+		"highcharts-react-official": "^3.0.0",
+		"history": "^4.10.1",
+		"jwt-decode": "^2.2.0",
+		"node-sass": "^4.14.1",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-redux": "^7.2.0",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "^3.4.1",
+		"redux": "^4.0.5",
+		"redux-logger": "^3.0.6",
+		"redux-saga": "^1.1.3"
+	},
+	"scripts": {
+		"start": "set PORT=3000 && react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"proxy": "http://127.0.0.1:57597",
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}

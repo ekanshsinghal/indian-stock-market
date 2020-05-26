@@ -1,0 +1,14 @@
+.TradeHistory {
+	height: calc(100vh - 138px);
+	margin-bottom: 24px;
+	color: #444;
+	background-color: #fff;
+
+	.table-container {
+		height: calc(100% - 69px);
+
+		th:first-child {
+			width: 330px
+		}
+	}
+}

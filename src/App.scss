@@ -1,0 +1,43 @@
+.App {
+	display: flex;
+	cursor: default;
+	.content {
+		flex-grow: 1;
+		background-color: #fff;
+		padding: 90px 54px 24px 54px;
+		transition: width 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+		width: calc(100vh - 400px);
+	}
+	.contentDark {
+		flex-grow: 1;
+		background-color: #191919;
+		padding: 90px 54px 24px 54px;
+		transition: width 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+		width: calc(100vh - 400px);
+	}
+	.contentShift {
+		transition: width 225ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+		width: calc(100vh - 750px);
+	}
+	.Button {
+		background-color: #ff5722;
+		color: #ffffff;
+		font-family: inherit;
+		font-weight: 300;
+	}
+	.Button:hover {
+		background-color: #ff5722;
+		opacity: 0.85;
+	}
+	.MuiRadio-colorSecondary.Mui-checked {
+		color: #ff6b3c;
+	}
+
+	.green {
+		color: #4caf50;
+	}
+	
+	.red {
+		color: #df514c;
+	}
+}
