@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 from os import getenv
-from flask import Flask
+from flask import Flask, redirect, url_for
 from flask_bcrypt import Bcrypt
 from flask_jwt_extended import JWTManager
 
@@ -24,6 +24,10 @@ app.config['MONGODB_SETTINGS'] = {
 @app.route('/')
 def index():
 	return app.send_static_file('index.html')
+
+@app.errorhandler(404)
+def page_not_found(e):
+	return redirect(url_for('index'))
 
 initialize_db(app)
 initialize_routes(api)

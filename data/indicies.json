@@ -1,0 +1,1608 @@
+[{
+  "_id": {
+    "$oid": "5e32f03c485b81402b0b9ba0"
+  },
+  "stkexchg": "BSE 100",
+  "exchange": "BSE",
+  "ind_id": "1",
+  "lastprice": 9159.29,
+  "change": -68.66,
+  "percentchange": -0.74,
+  "open": 9197.01,
+  "high": 9273.51,
+  "low": 9098.19,
+  "prevclose": 9227.95,
+  "yearlyhigh": 12536.11,
+  "yearlylow": 7588.58,
+  "ytd": -25.15,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_100.csv"
+},{
+  "_id": {
+    "$oid": "5e32f03f485b81402b0b9ba2"
+  },
+  "stkexchg": "BSE 200",
+  "exchange": "BSE",
+  "ind_id": "2",
+  "lastprice": 3823.44,
+  "change": -27.23,
+  "percentchange": -0.71,
+  "open": 3840.48,
+  "high": 3870.27,
+  "low": 3798.44,
+  "prevclose": 3850.67,
+  "yearlyhigh": 5216.58,
+  "yearlylow": 3168.27,
+  "ytd": -24.71,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_200.csv"
+},{
+  "_id": {
+    "$oid": "5e32f043485b81402b0b9ba5"
+  },
+  "stkexchg": "SENSEX",
+  "exchange": "BSE",
+  "ind_id": "4",
+  "lastprice": 30672.59,
+  "change": -260.31,
+  "percentchange": -0.84,
+  "open": 30822.78,
+  "high": 31107.91,
+  "low": 30474.88,
+  "prevclose": 30932.9,
+  "yearlyhigh": 42273.87,
+  "yearlylow": 25638.9,
+  "ytd": -25.65,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/sensex.csv"
+},{
+  "_id": {
+    "$oid": "5e32f047485b81402b0b9ba9"
+  },
+  "stkexchg": "NIFTY NEXT 50",
+  "exchange": "NSE",
+  "ind_id": "6",
+  "lastprice": 23031.55,
+  "change": -251.5,
+  "percentchange": -1.08,
+  "open": 23231.1,
+  "high": 23413.15,
+  "low": 23011.6,
+  "prevclose": 23283.05,
+  "yearlyhigh": 29259.5,
+  "yearlylow": 18384.05,
+  "ytd": -18.64,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnxnifty_jr.csv"
+},{
+  "_id": {
+    "$oid": "5e32f049485b81402b0b9bc9"
+  },
+  "stkexchg": "NIFTY 500",
+  "exchange": "NSE",
+  "ind_id": "7",
+  "lastprice": 7416,
+  "change": -54.6,
+  "percentchange": -0.73,
+  "open": 7446,
+  "high": 7507.5,
+  "low": 7368.7,
+  "prevclose": 7470.6,
+  "yearlyhigh": 10174.95,
+  "yearlylow": 6151.6,
+  "ytd": -24.88,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_500.csv"
+},{
+  "_id": {
+    "$oid": "5e32f04c485b81402b0b9bd8"
+  },
+  "stkexchg": "NIFTY 50",
+  "exchange": "NSE",
+  "ind_id": "9",
+  "lastprice": 9039.25,
+  "change": -67,
+  "percentchange": -0.74,
+  "open": 9067.9,
+  "high": 9149.6,
+  "low": 8968.55,
+  "prevclose": 9106.25,
+  "yearlyhigh": 12430.5,
+  "yearlylow": 7511.1,
+  "ytd": -25.72,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/nifty.csv"
+},{
+  "_id": {
+    "$oid": "5e32f04e485b81402b0b9bdb"
+  },
+  "stkexchg": "BSE TECk",
+  "exchange": "BSE",
+  "ind_id": "10",
+  "lastprice": 7251.83,
+  "change": 102.9,
+  "percentchange": 1.44,
+  "open": 7127.53,
+  "high": 7278.44,
+  "low": 7120.38,
+  "prevclose": 7148.93,
+  "yearlyhigh": 8271.31,
+  "yearlylow": 5491.25,
+  "ytd": -6.04,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_teck.csv"
+},{
+  "_id": {
+    "$oid": "5e32f050485b81402b0b9be1"
+  },
+  "stkexchg": "BSE PSU",
+  "exchange": "BSE",
+  "ind_id": "11",
+  "lastprice": 4222.07,
+  "change": -30.3,
+  "percentchange": -0.71,
+  "open": 4253.95,
+  "high": 4259.29,
+  "low": 4172.6,
+  "prevclose": 4252.37,
+  "yearlyhigh": 7954.62,
+  "yearlylow": 4013.91,
+  "ytd": -39.3,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_psu.csv"
+},{
+  "_id": {
+    "$oid": "5e32f053485b81402b0b9be3"
+  },
+  "stkexchg": "BSE 500",
+  "exchange": "BSE",
+  "ind_id": "12",
+  "lastprice": 11763.18,
+  "change": -80.75,
+  "percentchange": -0.68,
+  "open": 11817.6,
+  "high": 11905.14,
+  "low": 11689.31,
+  "prevclose": 11843.93,
+  "yearlyhigh": 16158.41,
+  "yearlylow": 9758.33,
+  "ytd": -24.92,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_500.csv"
+},{
+  "_id": {
+    "$oid": "5e32f055485b81402b0b9be5"
+  },
+  "stkexchg": "BSE CAP GOODS",
+  "exchange": "BSE",
+  "ind_id": "13",
+  "lastprice": 11116.77,
+  "change": -64.55,
+  "percentchange": -0.58,
+  "open": 11173.12,
+  "high": 11224.41,
+  "low": 11054.31,
+  "prevclose": 11181.32,
+  "yearlyhigh": 20386.76,
+  "yearlylow": 9499.15,
+  "ytd": -34.39,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/capitalgoods.csv"
+},{
+  "_id": {
+    "$oid": "5e32f057485b81402b0b9be8"
+  },
+  "stkexchg": "BSE FMCG",
+  "exchange": "BSE",
+  "ind_id": "14",
+  "lastprice": 10339.59,
+  "change": -19.62,
+  "percentchange": -0.19,
+  "open": 10353.8,
+  "high": 10420.95,
+  "low": 10284.29,
+  "prevclose": 10359.21,
+  "yearlyhigh": 12377.85,
+  "yearlylow": 8491.04,
+  "ytd": -9.35,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_fmcg.csv"
+},{
+  "_id": {
+    "$oid": "5e32f05a485b81402b0b9beb"
+  },
+  "stkexchg": "BSE HEALTHCARE",
+  "exchange": "BSE",
+  "ind_id": "15",
+  "lastprice": 15518.21,
+  "change": 66.16,
+  "percentchange": 0.43,
+  "open": 15442.87,
+  "high": 15537.21,
+  "low": 15315.38,
+  "prevclose": 15452.05,
+  "yearlyhigh": 15829.59,
+  "yearlylow": 10947.99,
+  "ytd": 15.56,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_health.csv"
+},{
+  "_id": {
+    "$oid": "5e32f05c485b81402b0b9bee"
+  },
+  "stkexchg": "BSE Cons Durables",
+  "exchange": "BSE",
+  "ind_id": "16",
+  "lastprice": 18193.83,
+  "change": -108.95,
+  "percentchange": -0.6,
+  "open": 18311.38,
+  "high": 18423.69,
+  "low": 18087.54,
+  "prevclose": 18302.78,
+  "yearlyhigh": 27927.62,
+  "yearlylow": 16699.02,
+  "ytd": -27.26,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_cd.csv"
+},{
+  "_id": {
+    "$oid": "5e32f05e485b81402b0b9bf0"
+  },
+  "stkexchg": "BSE IT",
+  "exchange": "BSE",
+  "ind_id": "17",
+  "lastprice": 14029.2,
+  "change": 231.56,
+  "percentchange": 1.68,
+  "open": 13745.95,
+  "high": 14088.13,
+  "low": 13745.95,
+  "prevclose": 13797.64,
+  "yearlyhigh": 16586.52,
+  "yearlylow": 10937.37,
+  "ytd": -9.35,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_it.csv"
+},{
+  "_id": {
+    "$oid": "5e32f060485b81402b0b9bf2"
+  },
+  "stkexchg": "BSE BANKEX",
+  "exchange": "BSE",
+  "ind_id": "18",
+  "lastprice": 19909.45,
+  "change": -497.17,
+  "percentchange": -2.44,
+  "open": 20201.44,
+  "high": 20651.64,
+  "low": 19675.66,
+  "prevclose": 20406.62,
+  "yearlyhigh": 37193.35,
+  "yearlylow": 18430.26,
+  "ytd": -45.71,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bankex.csv"
+},{
+  "_id": {
+    "$oid": "5e32f062485b81402b0b9bf5"
+  },
+  "stkexchg": "NIFTY IT",
+  "exchange": "NSE",
+  "ind_id": "19",
+  "lastprice": 13842.65,
+  "change": 194.75,
+  "percentchange": 1.43,
+  "open": 13622.25,
+  "high": 13902.8,
+  "low": 13571.65,
+  "prevclose": 13647.9,
+  "yearlyhigh": 16882.45,
+  "yearlylow": 10991.25,
+  "ytd": -11.56,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_it.csv"
+},{
+  "_id": {
+    "$oid": "5e32f064485b81402b0b9bf8"
+  },
+  "stkexchg": "BSE Auto",
+  "exchange": "BSE",
+  "ind_id": "20",
+  "lastprice": 13070.1,
+  "change": 48.79,
+  "percentchange": 0.37,
+  "open": 12958.73,
+  "high": 13114.16,
+  "low": 12784.62,
+  "prevclose": 13021.31,
+  "yearlyhigh": 19228.28,
+  "yearlylow": 10141.45,
+  "ytd": -29.29,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_auto.csv"
+},{
+  "_id": {
+    "$oid": "5e32f066485b81402b0b9bfb"
+  },
+  "stkexchg": "BSE Metal",
+  "exchange": "BSE",
+  "ind_id": "21",
+  "lastprice": 6192.85,
+  "change": -124.96,
+  "percentchange": -1.98,
+  "open": 6265.33,
+  "high": 6265.33,
+  "low": 6145.09,
+  "prevclose": 6317.81,
+  "yearlyhigh": 11347.51,
+  "yearlylow": 5336.05,
+  "ytd": -40.61,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_metal.csv"
+},{
+  "_id": {
+    "$oid": "5e32f068485b81402b0b9bfd"
+  },
+  "stkexchg": "BSE Oil & Gas",
+  "exchange": "BSE",
+  "ind_id": "22",
+  "lastprice": 11112.12,
+  "change": -17.17,
+  "percentchange": -0.15,
+  "open": 11163.42,
+  "high": 11187.12,
+  "low": 11020.01,
+  "prevclose": 11129.29,
+  "yearlyhigh": 15930.29,
+  "yearlylow": 8723.9,
+  "ytd": -24.64,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_oilgas.csv"
+},{
+  "_id": {
+    "$oid": "5e32f06a485b81402b0b9bff"
+  },
+  "stkexchg": "NIFTY BANK",
+  "exchange": "NSE",
+  "ind_id": "23",
+  "lastprice": 17278.9,
+  "change": -456.2,
+  "percentchange": -2.57,
+  "open": 17554.25,
+  "high": 17952.25,
+  "low": 17105,
+  "prevclose": 17735.1,
+  "yearlyhigh": 32613.1,
+  "yearlylow": 16116.25,
+  "ytd": -46.27,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/bank_nifty.csv"
+},{
+  "_id": {
+    "$oid": "5e32f06e485b81402b0b9c03"
+  },
+  "stkexchg": "BSE MIDCAP",
+  "exchange": "BSE",
+  "ind_id": "25",
+  "lastprice": 11270.02,
+  "change": -93.82,
+  "percentchange": -0.83,
+  "open": 11376.41,
+  "high": 11426.92,
+  "low": 11213.1,
+  "prevclose": 11363.84,
+  "yearlyhigh": 15930.78,
+  "yearlylow": 9555.24,
+  "ytd": -24.71,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_midcap.csv"
+},{
+  "_id": {
+    "$oid": "5e32f070485b81402b0b9c06"
+  },
+  "stkexchg": "BSE SMALLCAP",
+  "exchange": "BSE",
+  "ind_id": "26",
+  "lastprice": 10524.23,
+  "change": -23.9,
+  "percentchange": -0.23,
+  "open": 10580.51,
+  "high": 10612.58,
+  "low": 10473.84,
+  "prevclose": 10548.13,
+  "yearlyhigh": 15039.53,
+  "yearlylow": 8622.24,
+  "ytd": -23.18,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_smallcap.csv"
+},{
+  "_id": {
+    "$oid": "5e32f072485b81402b0b9c08"
+  },
+  "stkexchg": "NIFTY Midcap 100",
+  "exchange": "NSE",
+  "ind_id": "27",
+  "lastprice": 12668.05,
+  "change": -94.6,
+  "percentchange": -0.74,
+  "open": 12728.5,
+  "high": 12839.35,
+  "low": 12569.75,
+  "prevclose": 12762.65,
+  "yearlyhigh": 18495.9,
+  "yearlylow": 10749.95,
+  "ytd": -25.93,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_midcap.csv"
+},{
+  "_id": {
+    "$oid": "5e32f074485b81402b0b9c0b"
+  },
+  "stkexchg": "NIFTY 100",
+  "exchange": "NSE",
+  "ind_id": "28",
+  "lastprice": 9226.8,
+  "change": -73,
+  "percentchange": -0.78,
+  "open": 9263.25,
+  "high": 9344.05,
+  "low": 9165.45,
+  "prevclose": 9299.8,
+  "yearlyhigh": 12544.4,
+  "yearlylow": 7624.85,
+  "ytd": -24.79,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_100.csv"
+},{
+  "_id": {
+    "$oid": "5e32f077485b81402b0b9c0d"
+  },
+  "stkexchg": "BSE REALTY",
+  "exchange": "BSE",
+  "ind_id": "29",
+  "lastprice": 1281.18,
+  "change": -19.16,
+  "percentchange": -1.47,
+  "open": 1305.96,
+  "high": 1309.03,
+  "low": 1266.77,
+  "prevclose": 1300.34,
+  "yearlyhigh": 2564.83,
+  "yearlylow": 1259.01,
+  "ytd": -43.82,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_realty.csv"
+},{
+  "_id": {
+    "$oid": "5e32f079485b81402b0b9c11"
+  },
+  "stkexchg": "BSE POWER",
+  "exchange": "BSE",
+  "ind_id": "30",
+  "lastprice": 1417.77,
+  "change": -8.64,
+  "percentchange": -0.61,
+  "open": 1422.83,
+  "high": 1422.83,
+  "low": 1397.68,
+  "prevclose": 1426.41,
+  "yearlyhigh": 2159.18,
+  "yearlylow": 1275.07,
+  "ytd": -26.4,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_power.csv"
+},{
+  "_id": {
+    "$oid": "5e32f07c485b81402b0b9c13"
+  },
+  "stkexchg": "NIFTY MIDCAP 50",
+  "exchange": "NSE",
+  "ind_id": "31",
+  "lastprice": 3496.85,
+  "change": -32.3,
+  "percentchange": -0.92,
+  "open": 3512.75,
+  "high": 3550.7,
+  "low": 3468.25,
+  "prevclose": 3529.15,
+  "yearlyhigh": 5073.95,
+  "yearlylow": 2855.35,
+  "ytd": -25.62,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/nifty_midcap_50.csv"
+},{
+  "_id": {
+    "$oid": "5e32f080485b81402b0b9c16"
+  },
+  "stkexchg": "BSE IPO",
+  "exchange": "BSE",
+  "ind_id": "33",
+  "lastprice": 4415.06,
+  "change": -29.43,
+  "percentchange": -0.66,
+  "open": 4512.55,
+  "high": 4524.43,
+  "low": 4357.4,
+  "prevclose": 4444.49,
+  "yearlyhigh": 7631.98,
+  "yearlylow": 3966.65,
+  "ytd": -28.44,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_ipo.csv"
+},{
+  "_id": {
+    "$oid": "5e32f083485b81402b0b9c1a"
+  },
+  "stkexchg": "NIFTY REALTY",
+  "exchange": "NSE",
+  "ind_id": "34",
+  "lastprice": 163.55,
+  "change": -1.95,
+  "percentchange": -1.18,
+  "open": 165.6,
+  "high": 167,
+  "low": 161.55,
+  "prevclose": 165.5,
+  "yearlyhigh": 336.35,
+  "yearlylow": 160.85,
+  "ytd": -45.22,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_realty.csv"
+},{
+  "_id": {
+    "$oid": "5e32f085485b81402b0b9c1c"
+  },
+  "stkexchg": "NIFTY INFRA",
+  "exchange": "NSE",
+  "ind_id": "35",
+  "lastprice": 2720.15,
+  "change": -5.3,
+  "percentchange": -0.19,
+  "open": 2721.05,
+  "high": 2733.55,
+  "low": 2699.9,
+  "prevclose": 2725.45,
+  "yearlyhigh": 3453.3,
+  "yearlylow": 2072.6,
+  "ytd": -16.44,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_infra.csv"
+},{
+  "_id": {
+    "$oid": "5e32f086485b81402b0b9c1e"
+  },
+  "stkexchg": "India VIX",
+  "exchange": "NSE",
+  "ind_id": "36",
+  "lastprice": 32.37,
+  "change": -0.62,
+  "percentchange": -1.88,
+  "open": 32.98,
+  "high": 34.36,
+  "low": 26.33,
+  "prevclose": 32.99,
+  "yearlyhigh": 86.63,
+  "yearlylow": 9.16,
+  "ytd": 177.38,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/india_vix.csv"
+},{
+  "_id": {
+    "$oid": "5e32f08c485b81402b0b9c21"
+  },
+  "stkexchg": "NIFTY ENERGY",
+  "exchange": "NSE",
+  "ind_id": "38",
+  "lastprice": 12463.55,
+  "change": -39.05,
+  "percentchange": -0.31,
+  "open": 12492.5,
+  "high": 12518.35,
+  "low": 12346.7,
+  "prevclose": 12502.6,
+  "yearlyhigh": 16841.85,
+  "yearlylow": 9750,
+  "ytd": -21.65,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_energy.csv"
+},{
+  "_id": {
+    "$oid": "5e32f08e485b81402b0b9c25"
+  },
+  "stkexchg": "NIFTY FMCG",
+  "exchange": "NSE",
+  "ind_id": "39",
+  "lastprice": 27786.1,
+  "change": -101,
+  "percentchange": -0.36,
+  "open": 27843.25,
+  "high": 28051.25,
+  "low": 27658.1,
+  "prevclose": 27887.1,
+  "yearlyhigh": 32644.9,
+  "yearlylow": 22699.05,
+  "ytd": -7.75,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "5e32f090485b81402b0b9c27"
+  },
+  "stkexchg": "NIFTY MNC",
+  "exchange": "NSE",
+  "ind_id": "40",
+  "lastprice": 11944.45,
+  "change": -14.85,
+  "percentchange": -0.12,
+  "open": 11935.55,
+  "high": 11997,
+  "low": 11856,
+  "prevclose": 11959.3,
+  "yearlyhigh": 14356.2,
+  "yearlylow": 9648.2,
+  "ytd": -13.38,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_mnc.csv"
+},{
+  "_id": {
+    "$oid": "5e32f092485b81402b0b9c29"
+  },
+  "stkexchg": "NIFTY PHARMA",
+  "exchange": "NSE",
+  "ind_id": "41",
+  "lastprice": 9600.65,
+  "change": 80.1,
+  "percentchange": 0.84,
+  "open": 9502.3,
+  "high": 9619.6,
+  "low": 9427.2,
+  "prevclose": 9520.55,
+  "yearlyhigh": 9753.5,
+  "yearlylow": 6242.85,
+  "ytd": 19.41,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_pharma.csv"
+},{
+  "_id": {
+    "$oid": "5e32f094485b81402b0b9c2c"
+  },
+  "stkexchg": "NIFTY PSE",
+  "exchange": "NSE",
+  "ind_id": "42",
+  "lastprice": 2210,
+  "change": -14.4,
+  "percentchange": -0.65,
+  "open": 2212.05,
+  "high": 2222,
+  "low": 2177.95,
+  "prevclose": 2224.4,
+  "yearlyhigh": 3719.55,
+  "yearlylow": 1952.2,
+  "ytd": -31.51,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_pse.csv"
+},{
+  "_id": {
+    "$oid": "5e32f097485b81402b0b9c30"
+  },
+  "stkexchg": "NIFTY PSU BANK",
+  "exchange": "NSE",
+  "ind_id": "43",
+  "lastprice": 1090.15,
+  "change": -9.5,
+  "percentchange": -0.86,
+  "open": 1097.15,
+  "high": 1127.9,
+  "low": 1083.45,
+  "prevclose": 1099.65,
+  "yearlyhigh": 3423.5,
+  "yearlylow": 1078.45,
+  "ytd": -56.81,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_psubank.csv"
+},{
+  "_id": {
+    "$oid": "5e32f099485b81402b0b9c32"
+  },
+  "stkexchg": "NIFTY SERV SECTOR",
+  "exchange": "NSE",
+  "ind_id": "44",
+  "lastprice": 11826.95,
+  "change": -174.15,
+  "percentchange": -1.45,
+  "open": 11924.7,
+  "high": 12077.55,
+  "low": 11739.8,
+  "prevclose": 12001.1,
+  "yearlyhigh": 17743.2,
+  "yearlylow": 10401.3,
+  "ytd": -32.23,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_service.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0a0485b81402b0b9c35"
+  },
+  "stkexchg": "NIFTY FIN SERVICE",
+  "exchange": "NSE",
+  "ind_id": "47",
+  "lastprice": 8651.7,
+  "change": -272.65,
+  "percentchange": -3.06,
+  "open": 8846.25,
+  "high": 9001.1,
+  "low": 8574.5,
+  "prevclose": 8924.35,
+  "yearlyhigh": 14747.7,
+  "yearlylow": 7984.2,
+  "ytd": -40.57,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_finance.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0a1485b81402b0b9c39"
+  },
+  "stkexchg": "NIFTY COMMODITIES",
+  "exchange": "NSE",
+  "ind_id": "48",
+  "lastprice": 2550,
+  "change": 4.5,
+  "percentchange": 0.18,
+  "open": 2534.65,
+  "high": 2556.85,
+  "low": 2514.05,
+  "prevclose": 2545.5,
+  "yearlyhigh": 3753.85,
+  "yearlylow": 2068.8,
+  "ytd": -25.7,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_commodity.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0a4485b81402b0b9c3b"
+  },
+  "stkexchg": "Nifty 200",
+  "exchange": "NSE",
+  "ind_id": "49",
+  "lastprice": 4697.15,
+  "change": -36.95,
+  "percentchange": -0.78,
+  "open": 4716.1,
+  "high": 4756.75,
+  "low": 4666.6,
+  "prevclose": 4734.1,
+  "yearlyhigh": 6421.1,
+  "yearlylow": 3893.05,
+  "ytd": -24.91,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "5e32f0a6485b81402b0b9c3d"
+  },
+  "stkexchg": "NIFTY MEDIA",
+  "exchange": "NSE",
+  "ind_id": "50",
+  "lastprice": 1140.15,
+  "change": 13,
+  "percentchange": 1.15,
+  "open": 1128.85,
+  "high": 1154.65,
+  "low": 1124,
+  "prevclose": 1127.15,
+  "yearlyhigh": 2252.95,
+  "yearlylow": 972.95,
+  "ytd": -36.78,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_media.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0a8485b81402b0b9c40"
+  },
+  "stkexchg": "NIFTY METAL",
+  "exchange": "NSE",
+  "ind_id": "51",
+  "lastprice": 1710.45,
+  "change": -32.45,
+  "percentchange": -1.86,
+  "open": 1725.65,
+  "high": 1726.6,
+  "low": 1697.7,
+  "prevclose": 1742.9,
+  "yearlyhigh": 3044.5,
+  "yearlylow": 1480.7,
+  "ytd": -38.94,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_metal.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0ab485b81402b0b9c44"
+  },
+  "stkexchg": "NIFTY AUTO",
+  "exchange": "NSE",
+  "ind_id": "52",
+  "lastprice": 5767,
+  "change": 17.1,
+  "percentchange": 0.3,
+  "open": 5707.25,
+  "high": 5789.25,
+  "low": 5639.65,
+  "prevclose": 5749.9,
+  "yearlyhigh": 8517.6,
+  "yearlylow": 4452.2,
+  "ytd": -30.08,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_auto.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0ad485b81402b0b9c46"
+  },
+  "stkexchg": "NIFTY Smallcap 100",
+  "exchange": "NSE",
+  "ind_id": "53",
+  "lastprice": 3850.85,
+  "change": -24.35,
+  "percentchange": -0.63,
+  "open": 3878.55,
+  "high": 3902.8,
+  "low": 3832.35,
+  "prevclose": 3875.2,
+  "yearlyhigh": 6687.35,
+  "yearlylow": 3202.9,
+  "ytd": -34,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_smallcap.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0ae485b81402b0b9c48"
+  },
+  "stkexchg": "NIFTY DIV OPPS 50",
+  "exchange": "NSE",
+  "ind_id": "54",
+  "lastprice": 2039.7,
+  "change": -0.55,
+  "percentchange": -0.03,
+  "open": 2032.8,
+  "high": 2046.25,
+  "low": 2021,
+  "prevclose": 2040.25,
+  "yearlyhigh": 2743.85,
+  "yearlylow": 1712.3,
+  "ytd": -19.61,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_div_oppt.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0b3485b81402b0b9c4b"
+  },
+  "stkexchg": "NIFTY CONSUMPTION",
+  "exchange": "NSE",
+  "ind_id": "56",
+  "lastprice": 4440.75,
+  "change": 5.8,
+  "percentchange": 0.13,
+  "open": 4425.6,
+  "high": 4452.9,
+  "low": 4389.5,
+  "prevclose": 4434.95,
+  "yearlyhigh": 5197.05,
+  "yearlylow": 3614.85,
+  "ytd": -10.41,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/cnx_consumption.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0b6485b81402b0b9c4f"
+  },
+  "stkexchg": "BSE SME IPO",
+  "exchange": "BSE",
+  "ind_id": "58",
+  "lastprice": 1370.62,
+  "change": -9.47,
+  "percentchange": -0.69,
+  "open": 1380.09,
+  "high": 1380.42,
+  "low": 1369.32,
+  "prevclose": 1380.09,
+  "yearlyhigh": 1875.43,
+  "yearlylow": 1318.46,
+  "ytd": -22.58,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_sme_ipo.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0c1485b81402b0b9c54"
+  },
+  "stkexchg": "BSE INDIA INFRA",
+  "exchange": "BSE",
+  "ind_id": "62",
+  "lastprice": 122.03,
+  "change": -1.43,
+  "percentchange": -1.16,
+  "open": 123.34,
+  "high": 123.34,
+  "low": 121.13,
+  "prevclose": 123.46,
+  "yearlyhigh": 218.08,
+  "yearlylow": 104.26,
+  "ytd": -30.71,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_india_infra.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0c5485b81402b0b9c57"
+  },
+  "stkexchg": "NIFTY GROWSECT 15",
+  "exchange": "NSE",
+  "ind_id": "64",
+  "lastprice": 4494.3,
+  "change": -52.4,
+  "percentchange": -1.15,
+  "open": 4518.1,
+  "high": 4573.45,
+  "low": 4444.75,
+  "prevclose": 4546.7,
+  "yearlyhigh": 6514.15,
+  "yearlylow": 3949.25,
+  "ytd": -29.9,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/n15.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0ca485b81402b0b9c5d"
+  },
+  "stkexchg": "BSE INDIA MANUFACTUR",
+  "exchange": "BSE",
+  "ind_id": "66",
+  "lastprice": 368.01,
+  "change": 0.97,
+  "percentchange": 0.26,
+  "open": 366.85,
+  "high": 368.73,
+  "low": 363.54,
+  "prevclose": 367.04,
+  "yearlyhigh": 477.76,
+  "yearlylow": 293.69,
+  "ytd": -18.62,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_indiamfg.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0cc485b81402b0b9c5f"
+  },
+  "stkexchg": "BSE ALLCAP",
+  "exchange": "BSE",
+  "ind_id": "67",
+  "lastprice": 3335.98,
+  "change": -22.92,
+  "percentchange": -0.68,
+  "open": 3351.63,
+  "high": 3376.12,
+  "low": 3315.38,
+  "prevclose": 3358.9,
+  "yearlyhigh": 4591.17,
+  "yearlylow": 2765.2,
+  "ytd": -24.98,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_allcap.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0ce485b81402b0b9c62"
+  },
+  "stkexchg": "BSE Basic Material",
+  "exchange": "BSE",
+  "ind_id": "68",
+  "lastprice": 2115.9,
+  "change": 2.15,
+  "percentchange": 0.1,
+  "open": 2109.7,
+  "high": 2124.48,
+  "low": 2090.18,
+  "prevclose": 2113.75,
+  "yearlyhigh": 3027.15,
+  "yearlylow": 1691.08,
+  "ytd": -22.62,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_basicmat.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0d0485b81402b0b9c64"
+  },
+  "stkexchg": "BSE CDGS",
+  "exchange": "BSE",
+  "ind_id": "69",
+  "lastprice": 2763.58,
+  "change": 8.57,
+  "percentchange": 0.31,
+  "open": 2750,
+  "high": 2771.62,
+  "low": 2727.6,
+  "prevclose": 2755.01,
+  "yearlyhigh": 3871.02,
+  "yearlylow": 2348.82,
+  "ytd": -25.6,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_cdgs.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0d1485b81402b0b9c66"
+  },
+  "stkexchg": "BSE Energy",
+  "exchange": "BSE",
+  "ind_id": "70",
+  "lastprice": 4450.09,
+  "change": -18.29,
+  "percentchange": -0.41,
+  "open": 4503.52,
+  "high": 4511.54,
+  "low": 4439.23,
+  "prevclose": 4468.38,
+  "yearlyhigh": 5416.87,
+  "yearlylow": 3011.34,
+  "ytd": -13.76,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_energy.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0d1485b81402b0b9c68"
+  },
+  "stkexchg": "BSE Finance",
+  "exchange": "BSE",
+  "ind_id": "71",
+  "lastprice": 4011.55,
+  "change": -123.91,
+  "percentchange": -3,
+  "open": 4101.41,
+  "high": 4170.75,
+  "low": 3977.53,
+  "prevclose": 4135.46,
+  "yearlyhigh": 7079.73,
+  "yearlylow": 3696.7,
+  "ytd": -42.66,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_finance.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0d1485b81402b0b9c6a"
+  },
+  "stkexchg": "S&P BSE Industrials",
+  "exchange": "BSE",
+  "ind_id": "72",
+  "lastprice": 1971.87,
+  "change": -12.15,
+  "percentchange": -0.61,
+  "open": 1987.62,
+  "high": 1989.56,
+  "low": 1961.84,
+  "prevclose": 1984.02,
+  "yearlyhigh": 3361.13,
+  "yearlylow": 1651.84,
+  "ytd": -32.53,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_industrials.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0d3485b81402b0b9c6d"
+  },
+  "stkexchg": "BSE LARGECAP",
+  "exchange": "BSE",
+  "ind_id": "73",
+  "lastprice": 3490.5,
+  "change": -25.65,
+  "percentchange": -0.73,
+  "open": 3504.33,
+  "high": 3533.65,
+  "low": 3466.54,
+  "prevclose": 3516.15,
+  "yearlyhigh": 4780.32,
+  "yearlylow": 2889.04,
+  "ytd": -25.3,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_largecap.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0d5485b81402b0b9c70"
+  },
+  "stkexchg": "BSE MIDCAP SELECT",
+  "exchange": "BSE",
+  "ind_id": "74",
+  "lastprice": 4805.21,
+  "change": -64.28,
+  "percentchange": -1.32,
+  "open": 4856.45,
+  "high": 4897.74,
+  "low": 4785.89,
+  "prevclose": 4869.49,
+  "yearlyhigh": 6876.25,
+  "yearlylow": 4087.22,
+  "ytd": -25.25,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_midcap_select.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0d6485b81402b0b9c72"
+  },
+  "stkexchg": "BSE SMALLCAP SELECT",
+  "exchange": "BSE",
+  "ind_id": "75",
+  "lastprice": 1977.29,
+  "change": -0.47,
+  "percentchange": -0.02,
+  "open": 1984.72,
+  "high": 1992.58,
+  "low": 1964.58,
+  "prevclose": 1977.76,
+  "yearlyhigh": 2742.87,
+  "yearlylow": 1644.24,
+  "ytd": -21.21,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_smallcap_select.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0d8485b81402b0b9c75"
+  },
+  "stkexchg": "BSE Telecom",
+  "exchange": "BSE",
+  "ind_id": "76",
+  "lastprice": 1310.17,
+  "change": -1.66,
+  "percentchange": -0.13,
+  "open": 1314.3,
+  "high": 1320.37,
+  "low": 1297.08,
+  "prevclose": 1311.83,
+  "yearlyhigh": 1351.13,
+  "yearlylow": 839.92,
+  "ytd": 17.4,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_telecom.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0db485b81402b0b9c77"
+  },
+  "stkexchg": "BSE Utilities",
+  "exchange": "BSE",
+  "ind_id": "77",
+  "lastprice": 1397.5,
+  "change": -7.35,
+  "percentchange": -0.52,
+  "open": 1401.94,
+  "high": 1401.94,
+  "low": 1376.22,
+  "prevclose": 1404.85,
+  "yearlyhigh": 1971.28,
+  "yearlylow": 1198.19,
+  "ytd": -22.52,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_utilities.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0dd485b81402b0b9c7a"
+  },
+  "stkexchg": "Nifty Mid Liq 15",
+  "exchange": "NSE",
+  "ind_id": "78",
+  "lastprice": 2974.85,
+  "change": -25.65,
+  "percentchange": -0.85,
+  "open": 2991.3,
+  "high": 3032.4,
+  "low": 2957.4,
+  "prevclose": 3000.5,
+  "yearlyhigh": 3032.4,
+  "yearlylow": 0,
+  "ytd": -26.25,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/nse_midliq_15.csv"
+},{
+  "_id": {
+    "$oid": "5e32f0e0485b81402b0b9c7d"
+  },
+  "stkexchg": "Nifty Pvt Bank",
+  "exchange": "NSE",
+  "ind_id": "79",
+  "lastprice": 9421.55,
+  "change": -275.9,
+  "percentchange": -2.85,
+  "open": 9586.65,
+  "high": 9798.65,
+  "low": 9317.15,
+  "prevclose": 9697.45,
+  "yearlyhigh": 9798.65,
+  "yearlylow": 0,
+  "ytd": -46.97,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/nse/his/nse_pvtbank.csv"
+},{
+  "_id": {
+    "$oid": "5e32f112485b81402b0b9c92"
+  },
+  "stkexchg": "BSE SENSEX 50",
+  "exchange": "BSE",
+  "ind_id": "100",
+  "lastprice": 9447.15,
+  "change": -71.28,
+  "percentchange": -0.75,
+  "open": 9485.63,
+  "high": 9564.46,
+  "low": 9378.88,
+  "prevclose": 9518.43,
+  "yearlyhigh": 9564.46,
+  "yearlylow": 0,
+  "ytd": -25.83,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_sensex50.csv"
+},{
+  "_id": {
+    "$oid": "5e32f114485b81402b0b9c95"
+  },
+  "stkexchg": "BSE SENSEX NEXT 50",
+  "exchange": "BSE",
+  "ind_id": "101",
+  "lastprice": 24999.4,
+  "change": -179.92,
+  "percentchange": -0.71,
+  "open": 25109.31,
+  "high": 25326.77,
+  "low": 24904.9,
+  "prevclose": 25179.32,
+  "yearlyhigh": 25326.77,
+  "yearlylow": 0,
+  "ytd": -20.67,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "5e32f117485b81402b0b9c97"
+  },
+  "stkexchg": "BSE BHARAT 22",
+  "exchange": "BSE",
+  "ind_id": "102",
+  "lastprice": 2062.81,
+  "change": -25.82,
+  "percentchange": -1.24,
+  "open": 2082.06,
+  "high": 2088.03,
+  "low": 2044.58,
+  "prevclose": 2088.63,
+  "yearlyhigh": 2088.03,
+  "yearlylow": 0,
+  "ytd": -37.04,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "5e32f119485b81402b0b9c9a"
+  },
+  "stkexchg": "BSE 150 MIDCAP",
+  "exchange": "BSE",
+  "ind_id": "103",
+  "lastprice": 3728.52,
+  "change": -13.53,
+  "percentchange": -0.36,
+  "open": 3752.6,
+  "high": 3766.25,
+  "low": 3701.59,
+  "prevclose": 3742.05,
+  "yearlyhigh": 3766.25,
+  "yearlylow": 0,
+  "ytd": -21.89,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_150midcap.csv"
+},{
+  "_id": {
+    "$oid": "5e32f11b485b81402b0b9c9d"
+  },
+  "stkexchg": "BSE 250 SMALLCAP",
+  "exchange": "BSE",
+  "ind_id": "104",
+  "lastprice": 1416.75,
+  "change": -5.01,
+  "percentchange": -0.35,
+  "open": 1426.38,
+  "high": 1430.83,
+  "low": 1411.29,
+  "prevclose": 1421.76,
+  "yearlyhigh": 1430.83,
+  "yearlylow": 0,
+  "ytd": -29.46,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_250smallcap.csv"
+},{
+  "_id": {
+    "$oid": "5e32f11e485b81402b0b9c9f"
+  },
+  "stkexchg": "BSE 250 LARGEMIDCAP",
+  "exchange": "BSE",
+  "ind_id": "105",
+  "lastprice": 3607.11,
+  "change": -25.38,
+  "percentchange": -0.7,
+  "open": 3623.4,
+  "high": 3651.17,
+  "low": 3583.98,
+  "prevclose": 3632.49,
+  "yearlyhigh": 3651.17,
+  "yearlylow": 0,
+  "ytd": -24.67,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_250largemidcap.csv"
+},{
+  "_id": {
+    "$oid": "5e32f120485b81402b0b9ca2"
+  },
+  "stkexchg": "BSE 400 MIDSMALLCAP",
+  "exchange": "BSE",
+  "ind_id": "106",
+  "lastprice": 2715.1,
+  "change": -9.79,
+  "percentchange": -0.36,
+  "open": 2732.88,
+  "high": 2741.84,
+  "low": 2698.15,
+  "prevclose": 2724.89,
+  "yearlyhigh": 2741.84,
+  "yearlylow": 0,
+  "ytd": -24.14,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  },
+  "history_url": "https://www.moneycontrol.com/tech_charts/bse/his/bse_400midsmallcap.csv"
+},{
+  "_id": {
+    "$oid": "5e32f125485b81402b0b9ca6"
+  },
+  "stkexchg": "BSE 100 LargeCap TMC",
+  "exchange": "BSE",
+  "ind_id": "108",
+  "lastprice": 3327.37,
+  "change": -25.21,
+  "percentchange": -0.75,
+  "open": 3341.36,
+  "high": 3369.17,
+  "low": 3305.57,
+  "prevclose": 3352.58,
+  "yearlyhigh": 3369.17,
+  "yearlylow": 0,
+  "ytd": -25.1,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "5e32f129485b81402b0b9ca9"
+  },
+  "stkexchg": "BSE PRIVATE BANK",
+  "exchange": "BSE",
+  "ind_id": "110",
+  "lastprice": 6884.92,
+  "change": -210.13,
+  "percentchange": -2.96,
+  "open": 7013.36,
+  "high": 7168.85,
+  "low": 6816.38,
+  "prevclose": 7095.05,
+  "yearlyhigh": 7168.85,
+  "yearlylow": 0,
+  "ytd": -46.24,
+  "lastupdated": {
+    "$date": "2020-05-22T16:09:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "5e32f12c485b81402b0b9cab"
+  },
+  "stkexchg": "NIFTY MIDCAP 150",
+  "exchange": "NSE",
+  "ind_id": "111",
+  "lastprice": 4849,
+  "change": -24.9,
+  "percentchange": -0.51,
+  "open": 4868.2,
+  "high": 4904.8,
+  "low": 4811.75,
+  "prevclose": 4873.9,
+  "yearlyhigh": 4904.8,
+  "yearlylow": 0,
+  "ytd": -23.29,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "5e4ae2fa2eed220733dc609d"
+  },
+  "stkexchg": "NIFTY MIDSML 400",
+  "exchange": "NSE",
+  "ind_id": "112",
+  "lastprice": 4327.35,
+  "change": -21.05,
+  "percentchange": -0.48,
+  "open": 4346.75,
+  "high": 4376.05,
+  "low": 4298.25,
+  "prevclose": 4348.4,
+  "yearlyhigh": 4376.05,
+  "yearlylow": 0,
+  "ytd": -25.35,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "5e4ae2fa2eed220733dc609f"
+  },
+  "stkexchg": "NIFTY SMLCAP 50",
+  "exchange": "NSE",
+  "ind_id": "113",
+  "lastprice": 1812.15,
+  "change": -10.85,
+  "percentchange": -0.6,
+  "open": 1824.2,
+  "high": 1838.45,
+  "low": 1807.8,
+  "prevclose": 1823,
+  "yearlyhigh": 1838.45,
+  "yearlylow": 0,
+  "ytd": -35.58,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  }
+},{
+  "_id": {
+    "$oid": "5e4ae2fb2eed220733dc60a1"
+  },
+  "stkexchg": "NIFTY SMLCAP 250",
+  "exchange": "NSE",
+  "ind_id": "114",
+  "lastprice": 3402.05,
+  "change": -14.3,
+  "percentchange": -0.42,
+  "open": 3421.6,
+  "high": 3439.4,
+  "low": 3386.5,
+  "prevclose": 3416.35,
+  "yearlyhigh": 3439.4,
+  "yearlylow": 0,
+  "ytd": -29.96,
+  "lastupdated": {
+    "$date": "2020-05-22T16:10:00Z"
+  }
+}]

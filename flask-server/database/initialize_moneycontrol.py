@@ -3,7 +3,6 @@ from models import Script
 from concurrent import futures
 from itertools import count
 from datetime import datetime
-from pprint import pprint
 import utilities
 
 

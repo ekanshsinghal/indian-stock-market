@@ -61,7 +61,7 @@ class PortfolioApi(Resource):
 			username	= get_jwt_identity()
 			trades		= Trade.objects(user=username).exclude('user', 'id').order_by('date').as_pymongo()
 			codes		= list(set([i['code'] for i in trades]))
-			companies	= Script.objects(code__in=codes).exclude('id', 'nseHist', 'bseHist', 'url').order_by('name').as_pymongo()
+			companies	= Script.objects(code__in=codes).exclude('id', 'nseHist', 'bseHist', 'url', 'shareholding', 'standalone', 'consolidated').order_by('name').as_pymongo()
 			curr_val, investment, realised_pl, daily_net_change, response = 0, 0, 0, 0, {'scripts': []}
 			for i in companies:
 				price, prev_close = i[i['priceObj']]['price'], i[i['priceObj']]['prev_close']

@@ -17,7 +17,7 @@ class Watchlist(Resource):
 		try:
 			codes		= list(user.watchlist)
 			watchlist	= []
-			for ob in Script.objects(code__in=codes).exclude('id', 'nseHist', 'bseHist').as_pymongo():
+			for ob in Script.objects(code__in=codes).exclude('id', 'nseHist', 'bseHist', 'shareholding', 'standalone', 'consolidated').as_pymongo():
 				watchlist.append(ob)
 				watchlist[-1]['lastupd'] = watchlist[-1]['lastupd'].isoformat()
 			for ob in Indicies.objects(stkexchg__in=codes).exclude('id', 'history').as_pymongo():

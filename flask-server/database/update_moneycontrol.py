@@ -1,10 +1,10 @@
 from mongoengine import connect
-from models import Script, Indicies
+from models import Script, Indicies, Trade, User
 from concurrent import futures
 from itertools import count
 from datetime import datetime, timedelta
+from pprint import pprint
 import requests
-
 
 def get_history_price(csv_url):
 	response	= requests.get(csv_url).content.decode('utf-8').split('\n')
@@ -66,13 +66,10 @@ float_field = {
 }
 
 def get_company_data(company, count):
-	responseBse	= requests.get('https://priceapi-aws.moneycontrol.com/pricefeed/bse/equitycash/' + company.code.upper()).json()
-	responseNse	= requests.get('https://priceapi-aws.moneycontrol.com/pricefeed/nse/equitycash/' + company.code.upper()).json()
-	if responseBse['code'] == '201' and responseNse['code'] == '201':
-		# print(count, '\t ' + company['code'] + '\t Not Found')
-		return
+	responseBse	= requests.get('https://priceapi.moneycontrol.com/pricefeed/bse/equitycash/' + company.code.upper()).json()
+	responseNse	= requests.get('https://priceapi.moneycontrol.com/pricefeed/nse/equitycash/' + company.code.upper()).json()
 
-	if responseNse['code'] == '200':
+	if responseNse['code'] == '200' and responseNse['data']['LP'] != '-' and responseNse['data']['OPN'] != '-':
 		company['priceObj'] = 'nse'
 		for key in str_fields.keys():
 			try:
@@ -101,7 +98,7 @@ def get_company_data(company, count):
 			print(type(e).__name__, company.code)
 			print(e)
 	
-	else:
+	elif responseBse['code'] == '200' and responseBse['data']['LP'] != '-':
 		company['priceObj'] = 'bse'
 		for key in str_fields.keys():
 			try:
@@ -125,6 +122,8 @@ def get_company_data(company, count):
 		except Exception as e:
 			print(type(e).__name__, company.code)
 			print(e)
+	else:
+		return
 	company.save()
 	print(count, '\t ' + company['name'])
 
@@ -159,13 +158,26 @@ def update_index(index, count):
 	index.save()
 	print(count, '.\t' + index['stkexchg'])
 
-if __name__ == "__main__":
+def complete_update():
 	connect('stock_exchange')
-	# for index in Indicies.objects:
-	# 	update_index(index)
-	# get_company_data(Script.objects.get(code='tcs'), 1)
-	# for company in Script.objects():
-	# 	get_company_data(company, count())
 	executor	= futures.ThreadPoolExecutor()
-	# indResults	= executor.map(update_index, Indicies.objects, count())
+	indResults	= executor.map(update_index, Indicies.objects, count())
 	results		= executor.map(get_company_data, Script.objects(name__ne=None), count())
+
+def partial_update():
+	connect('stock_exchange')
+	codes		= Trade.objects().distinct(field='code')
+	watchlists	= User.objects().only('watchlist')
+	for watchlist in watchlists:
+		codes.extend(watchlist.watchlist)
+	codes		= set(codes)
+	# Testing Only
+	# for i in Script.objects(code__in=codes):
+	# 	get_company_data(i, count())
+	executor	= futures.ThreadPoolExecutor()
+	indResults	= executor.map(update_index, Indicies.objects, count())
+	results		= executor.map(get_company_data, Script.objects(code__in=codes), count())
+
+if __name__ == "__main__":
+	# complete_update()
+	partial_update()

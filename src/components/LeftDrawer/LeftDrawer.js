@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Drawer, CircularProgress, TableContainer, Table, TableBody, TableRow, TableCell, Typography, TextField, Button } from '@material-ui/core';
+import { Drawer, CircularProgress, TableContainer, Table, TableBody, TableRow, TableCell, Typography, TextField, Button, Chip } from '@material-ui/core';
 import { format } from 'date-fns';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import SearchRoundedIcon from '@material-ui/icons/SearchRounded';
@@ -204,9 +204,9 @@ class LeftDrawer extends React.Component {
 								<React.Fragment>
 									<div style={{width: '100%', display: 'flex', justifyContent: 'space-between'}}>
 										<span>{option.full_name}</span>
-										<span style={{justifyContent: 'center'}}>
-											<span>{option.index ? option.index : option.priceObj.toUpperCase()}</span>
-										</span>
+										{option.index === 'BSE' || (option.priceObj && option.priceObj.toUpperCase() === 'BSE') ? 
+											<Chip color='secondary' variant='outlined' label='BSE'/>
+										: <Chip color='primary' variant='outlined' label='NSE'/>}
 									</div>
 								</React.Fragment>
 							)}
