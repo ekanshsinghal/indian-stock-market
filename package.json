@@ -9,7 +9,7 @@
 		"@material-ui/pickers": "^3.2.10",
 		"@nivo/line": "^0.83.0",
 		"@nivo/treemap": "^0.83.0",
-		"axios": "^0.21.1",
+		"axios": "^1.6.0",
 		"connected-react-router": "^6.8.0",
 		"date-fns": "^2.14.0",
 		"highcharts": "^9.0.0",
