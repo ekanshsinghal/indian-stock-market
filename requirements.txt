@@ -25,7 +25,7 @@ pytz==2020.1
 requests==2.32.2
 six==1.15.0
 soupsieve==2.0.1
-urllib3==1.26.19
+urllib3==2.5.0
 Werkzeug==2.3.8
 WTForms==2.3.1
 zope.interface==5.1.0
